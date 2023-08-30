@@ -1,0 +1,158 @@
+/* Reset de Estilos para Resetear los Estilos Predeterminados de los Navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos Globales */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222;
+  color: #fff;
+}
+
+.home-header {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+
+.home-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.home-header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.home-section {
+  background-color: #f4f4f4;
+  padding: 4rem;
+  text-align: center;
+}
+
+.home-section h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.home-section p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Estilos para los botones */
+.btn {
+  background-color: #00ff4c;
+  color: #000000;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Cambiar estilos al pasar el mouse sobre el botón */
+.btn:hover {
+  background-color: #d9ff00;
+}
+
+.team-title {
+  font-size: 44px;
+  color: #ff0000; /* Cambiar a color rojo */
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #07e2ff;
+}
+
+.membership-title {
+  font-size: 44px;
+  color: #ff0000; /* Cambiar a color rojo */
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #07e2ff;
+}
+
+.btn-start {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn-start:hover {
+  color: #00ff00;
+}
+
+.btn-discord {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn-discord:hover {
+  color: #00ff00;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  /* Ajusta el tamaño de fuente */
+  body {
+    font-size: 16px; /* o el tamaño deseado */
+  }
+
+  /* Ajusta el espaciado y el ancho de contenedores */
+  .home-header,
+  .home-section {
+    padding: 2rem; /* o el espacio deseado */
+  }
+
+  /* Ajusta los estilos del menú de navegación */
+  nav ul {
+    flex-direction: column; /* Cambia a una disposición vertical */
+    align-items: center; /* Centra los elementos verticalmente */
+    background-color: #333; /* Cambia el color de fondo */
+  }
+
+  /* Ajusta el tamaño de las imágenes */
+  img {
+    max-width: 100%; /* Evita que las imágenes se desborden */
+    height: auto; /* Mantén la proporción original */
+  }
+
+  /* Ajusta el tamaño de los botones */
+  .btn {
+    font-size: 14px; /* o el tamaño deseado */
+    padding: 8px 15px; /* o el espacio deseado */
+  }
+}
