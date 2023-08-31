@@ -178,3 +178,22 @@ footer {
   border-radius: 5px;
   background-color: #31f700;
 }
+
+.admin-section {
+  background-color: #f4f4f4;
+  padding: 4rem;
+  text-align: center;
+}
+
+.admin-section h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.admin-member {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
