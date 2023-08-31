@@ -79,7 +79,7 @@ footer {
 .membership-card ul,
 .admin-member p {
   list-style-type: disc;
-  text-align: left;
+  text-align: center;
   margin: 10px 0;
   padding-left: 20px;
 }
