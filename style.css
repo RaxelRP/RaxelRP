@@ -169,3 +169,12 @@ footer {
 .membership-card li {
   margin-bottom: 5px;
 }
+
+.team-title {
+  font-size: 44px;
+  color: #00aeff;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #31f700;
+}
