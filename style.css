@@ -156,3 +156,18 @@ h3 {
     padding: 8px 15px;
   }
 }
+
+.content-container {
+  display: flex; /* Usa un flexbox para alinear los elementos */
+  align-items: center; /* Centra verticalmente los elementos */
+  gap: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.image {
+  max-width: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
+  height: auto;
+}
+
+.text {
+  flex: 1; /* El texto ocupará el espacio restante */
+}
