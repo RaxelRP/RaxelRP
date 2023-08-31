@@ -88,18 +88,10 @@ footer {
   background-color: #d9ff00;
 }
 
-.team-title {
-  font-size: 44px;
-  color: #ff0000; /* Cambiar a color rojo */
-  padding: 10px;
-  display: inline-block;
-  border-radius: 5px;
-  background-color: #07e2ff;
-}
-
+.team-title,
 .membership-title {
   font-size: 44px;
-  color: #ff0000; /* Cambiar a color rojo */
+  color: #ff0000;
   padding: 10px;
   display: inline-block;
   border-radius: 5px;
@@ -126,37 +118,33 @@ footer {
 
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
-  /* Ajusta el tamaño de fuente */
   body {
-    font-size: 16px; /* o el tamaño deseado */
+    font-size: 16px;
   }
 
-  /* Ajusta el espaciado y el ancho de contenedores */
   .home-header,
   .home-section {
-    padding: 2rem; /* o el espacio deseado */
+    padding: 2rem;
   }
 
-  /* Ajusta los estilos del menú de navegación */
   nav ul {
-    flex-direction: column; /* Cambia a una disposición vertical */
-    align-items: center; /* Centra los elementos verticalmente */
-    background-color: #333; /* Cambia el color de fondo */
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
   }
 
-  /* Ajusta el tamaño de las imágenes */
   img {
-    max-width: 100%; /* Evita que las imágenes se desborden */
-    height: auto; /* Mantén la proporción original */
+    max-width: 100%;
+    height: auto;
   }
 
-  /* Ajusta el tamaño de los botones */
   .btn {
-    font-size: 14px; /* o el tamaño deseado */
-    padding: 8px 15px; /* o el espacio deseado */
+    font-size: 14px;
+    padding: 8px 15px;
   }
 }
 
+/* Estilos para centrar el contenido */
 .center-content {
   display: flex;
   flex-direction: column;
