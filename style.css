@@ -147,13 +147,3 @@ footer {
     padding: 8px 15px;
   }
 }
-
-.btn-discord {
-  background-color: #b700ff;
-  color: #000000;
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
