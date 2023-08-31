@@ -39,37 +39,68 @@ footer {
   color: #fff;
 }
 
-.home-header {
-  background-color: #222;
-  color: #fff;
-  text-align: center;
-  padding: 2rem;
-}
-
-.home-header h1 {
-  margin: 0;
-  font-size: 2.5rem;
-}
-
-.home-header p {
-  font-size: 1.2rem;
-  margin-top: 0.5rem;
-}
-
-.home-section {
+.members-list-section,
+.admin-section {
   background-color: #f4f4f4;
   padding: 4rem;
   text-align: center;
 }
 
-.home-section h2 {
+.title {
+  font-size: 44px;
+  color: #ff0000;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #07e2ff;
+}
+
+.admin-section h2,
+.members-list-section h2 {
   color: #333;
   margin-bottom: 1rem;
 }
 
-.home-section p {
-  color: #666;
-  line-height: 1.6;
+.membership-card,
+.admin-member {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.price {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.membership-card ul,
+.admin-member p {
+  list-style-type: disc;
+  text-align: left;
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.membership-card li,
+.admin-member p {
+  margin-bottom: 5px;
+}
+
+.team-title {
+  font-size: 42px;
+  color: #00aeff;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #31f700;
+}
+
+.admin-section {
+  min-height: calc(
+    100vh - 100px
+  ); /* Ajusta el valor 100px según tus necesidades */
 }
 
 /* Estilos para los botones */
@@ -93,8 +124,10 @@ footer {
     font-size: 16px;
   }
 
-  .home-header,
-  .home-section {
+  header,
+  .home-section,
+  .members-list-section,
+  .admin-section {
     padding: 2rem;
   }
 
@@ -113,93 +146,4 @@ footer {
     font-size: 14px;
     padding: 8px 15px;
   }
-}
-
-/* Estilos para centrar el contenido */
-.center-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  text-align: center;
-}
-
-/* Estilos específicos para las membresías */
-.members-list-section {
-  background-color: #f4f4f4;
-  padding: 4rem;
-  text-align: center;
-}
-
-.members-list-section h2 {
-  color: #333;
-  margin-bottom: 1rem;
-}
-
-.membership-card {
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.title {
-  font-size: 44px;
-  color: #ff0000;
-  padding: 10px;
-  display: inline-block;
-  border-radius: 5px;
-  background-color: #07e2ff;
-}
-
-.price {
-  font-weight: bold;
-  margin-top: 10px;
-}
-
-.membership-card ul {
-  list-style-type: disc;
-  text-align: left;
-  margin: 10px 0;
-  padding-left: 20px;
-}
-
-.membership-card li {
-  margin-bottom: 5px;
-}
-
-.team-title {
-  font-size: 42px;
-  color: #00aeff;
-  padding: 10px;
-  display: inline-block;
-  border-radius: 5px;
-  background-color: #31f700;
-}
-
-.admin-section {
-  background-color: #f4f4f4;
-  padding: 4rem;
-  text-align: center;
-}
-
-.admin-section h2 {
-  color: #333;
-  margin-bottom: 1rem;
-}
-
-.admin-member {
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.admin-section {
-  min-height: calc(
-    100vh - 100px
-  ); /* Ajusta el valor 100px según tus necesidades */
 }
